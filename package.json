@@ -1,0 +1,29 @@
+{
+  "name": "devtools-devices",
+  "version": "1.0.0",
+  "description": "Devices info from devtools-frontend for mocking",
+  "scripts": {
+    "pregen": "rimraf dist",
+    "gen:dev": "TEMP_SOURCE=1 npm run gen",
+    "gen": "ts-node scripts/gen.ts",
+    "test": "node tests/test.js && ts-node tests/test.ts"
+  },
+  "files": [
+    "dist",
+    "!scripts",
+    "!tests",
+    "!pnpm-lock.yaml"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^17.0.18",
+    "esbuild": "^0.14.21",
+    "got": "11",
+    "json-to-ts": "^1.7.0",
+    "rimraf": "^3.0.2",
+    "ts-node": "^10.5.0",
+    "typescript": "^4.5.5"
+  }
+}
