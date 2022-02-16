@@ -2,23 +2,26 @@
   "name": "devtools-devices",
   "version": "1.0.2",
   "description": "Devices info from devtools-frontend for mocking",
-  "scripts": {
-    "pregen": "rimraf dist",
-    "gen:dev": "TEMP_SOURCE=1 npm run gen",
-    "gen": "ts-node scripts/gen.ts",
-    "test": "node tests/test.js && ts-node tests/test.ts"
-  },
+  "keywords": [
+    "devtools",
+    "devices",
+    "mocking"
+  ],
+  "main": "dist/index.cjs",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
   "files": [
     "dist",
     "!scripts",
     "!tests",
     "!pnpm-lock.yaml"
   ],
-  "keywords": [
-    "devtools",
-    "devices",
-    "mocking"
-  ],
+  "scripts": {
+    "pregen": "rimraf dist",
+    "gen": "ts-node scripts/gen.ts",
+    "gen:dev": "TEMP_SOURCE=1 npm run gen",
+    "test": "node tests/test.js && ts-node tests/test.ts"
+  },
   "devDependencies": {
     "@types/node": "^17.0.18",
     "got": "11",
