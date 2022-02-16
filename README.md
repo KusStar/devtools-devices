@@ -1,6 +1,6 @@
 # devtool-devices
 
-Devices info from [devtools-frontend](https://github.com/ChromeDevTools/devtools-frontend)for mocking, exported from [devtools/frontend/.../EmulatedDevices](https://raw.githubusercontent.com/ChromeDevTools/devtools-frontend/main/front_end/models/emulation/EmulatedDevices.ts).
+Devices info from [devtools-frontend](https://github.com/ChromeDevTools/devtools-frontend) for mocking, exported from [devtools/frontend/.../EmulatedDevices](https://raw.githubusercontent.com/ChromeDevTools/devtools-frontend/main/front_end/models/emulation/EmulatedDevices.ts).
 
 ## Usage
 
