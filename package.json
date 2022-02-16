@@ -14,11 +14,16 @@
     "!tests",
     "!pnpm-lock.yaml"
   ],
-  "keywords": ["devtools", "devices", "mocking"],
+  "keywords": [
+    "devtools",
+    "devices",
+    "mocking"
+  ],
   "devDependencies": {
     "@types/node": "^17.0.18",
     "got": "11",
     "json-to-ts": "^1.7.0",
+    "release-it": "^14.12.4",
     "rimraf": "^3.0.2",
     "ts-node": "^10.5.0",
     "typescript": "^4.5.5"
