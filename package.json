@@ -1,6 +1,6 @@
 {
   "name": "devtools-devices",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Devices info from devtools-frontend for mocking",
   "keywords": [
     "devtools",
